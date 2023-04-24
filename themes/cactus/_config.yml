@@ -38,6 +38,9 @@ social_links:
     icon: itch-io
     link: https://zetachan.itch.io/
   -
+    icon: spotify
+    link: https://open.spotify.com/user/mu83fj9jr919d2nedm9n8xdkx
+  -
     icon: mail
     link: mailto:zetachan17@gmail.com
 
@@ -100,7 +103,7 @@ logo:
   enabled: true
   width: 50
   height: 50
-  url: /images/logo.png
+  url: /images/avatar.jpg
   gravatar: false
   grayout: true
 
@@ -115,13 +118,13 @@ logo:
 #   - gravatar: whether to create a favicon from your Gravatar
 favicon:
   desktop:
-    url: /images/favicon.ico
+    url: /images/avatar.jpg
     gravatar: false
   android:
-    url: /images/favicon-192x192.png
+    url: /images/avatar.jpg
     gravatar: false
   apple:
-    url: /images/apple-touch-icon.png
+    url: /images/avatar.jpg
     gravatar: false
 
 # The color scheme that should be used to highlight codeblocks.
