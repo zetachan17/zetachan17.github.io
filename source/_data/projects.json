@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Iron Man Game",
+        "url": "/projects/ironman",
+        "desc": "The project I worked on during my internship at EA Motive. I worked on gameplay programming and some UI in Frostbite Engine and Unreal Engine 5."
+    },
+    {
+       "name":"Imminent",
+       "url":"/projects/imminent",
+       "desc":"A roguelike deck-building game in Unity. Won two nominations in the 2022 Ubisoft Game Lab Competition."
+    },
+    {
+       "name":"Space Rides",
+       "url":"/projects/spaceriders",
+       "desc":"A space combat game using that takes inspiration from Star Wars: Squadrons and Kirby Air Ride. Made in Unity."
+    },
+    {
+        "name": "Warzone Game",
+        "url": "/projects/warzone",
+        "desc": "A Risk-style game made in C++ and STL."
+    }
+]

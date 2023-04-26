@@ -15,10 +15,10 @@ direction: ltr
 # languages/*.yml
 nav:
   home: /
-  about: /about/
+  projects: /projects/
   articles: /archives/
-  projects: http://github.com/probberechts
-  Resume: /resume/
+  about: /about/
+  Resume: /Runze_Zhu_Resume.pdf
 
 
 # Links to your social media accounts.
