@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Runze's Blog
 subtitle: ''
-description: ''
+description: Hi, I'm Runze Zhu, a recently graduated student with a Bachelor's Degree in Computer Science. <br>I specialized in game development, gameplay/UI programming, and I'm intrested in computer graphics and game engine development.  <br> swiftie.
 keywords:
-author: John Doe
+author: Runze Zhu
 language: en
 timezone: ''
 
@@ -97,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: diaspora
+theme: cactus
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
