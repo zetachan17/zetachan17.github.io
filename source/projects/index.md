@@ -6,6 +6,11 @@ date: 2023-04-25 16:24:35
 During my four years of study in Concordia University, I made many projects along with many wonderful ~~and a few not so wonderful~~ people. Most of them are video game related. Here are some that I'm proud of.
 Click on the title to see more details about the project.
 
+
+## [Jumpin' Jazz Cats](/projects/jumpinjazzcats) 
+![Jumpin' Jazz Cats Key Art (I guess?)](../images/jumpinjazzcats.jpg)
+I worked on this online multiplayer game in Unreal Engine 5 as a gameplayer/UI programmer.
+
 ## [Iron Man Game](/projects/ironman) 
 ![Iron Man Game Key Art](/images/IronMan.jpg)
 My internship project at EA Motive.

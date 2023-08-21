@@ -1,4 +1,8 @@
-[
+[    {
+    "name": "Jumpin' Jazz Cats",
+    "url": "/projects/jumpinjazzcats",
+    "desc": "I worked on this online multiplayer party game at an indie game studio called Le Catnip Collective. I mainly worked on gameplay programming, UI programming and online aspect of the game in Unreal Engine 5."
+    },
     {
         "name": "Iron Man Game",
         "url": "/projects/ironman",
