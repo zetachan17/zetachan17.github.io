@@ -1,0 +1,2 @@
+<header class="page-heading"><span class="eyebrow">THE PORTFOLIO / <%= String(site.data.projects.length).padStart(2, "0") %> PROJECTS</span><h1>Things I’ve<br><span>helped build.</span></h1><p>From studio projects to game jams. Gameplay, interfaces, AI, and experiments in making things fun.</p></header>
+<section aria-label="All projects" class="project-grid all-projects"><% site.data.projects.forEach(project => { %><%- partial('_partial/card', {project}) %><% }) %></section>

@@ -1,17 +1,20 @@
 ---
-title: WHO IS RUNZE FUCKING ZHU?
-date: 2023-04-25 14:33:05
+layout: about
+title: About
+description: Meet Runze Zhu, a game programmer in Montréal working on gameplay automation and developer tools at Ubisoft.
 ---
+## Hi, I’m Runze.
 
-Who is Runze Zhu anyway?
+I’m a programmer based in Montréal, currently working as a **QA Programmer at Ubisoft Montréal**. I build C++ gameplay tests, developer tools, and telemetry systems that help teams make better games.
 
-I was born and raised in a small town in China, came to Montreal in 2019 with a dream of becoming a game developer.
+My work also includes AI-assisted development workflows: custom agents, MCP integrations, and evaluation tools for generated unit tests. I enjoy finding practical ways to make a large codebase easier to work with.
 
-Passionate about video game and game development. Bought many games and haven't finsh half of them.
-Participited in many Game Jams, made many small games, learned a lot, and realized that there are a lot more I need to learn.
+Before Ubisoft, I contributed to **Call of Duty: Warzone Mobile at Beenox** and prototyped gameplay for **Iron Man at EA Motive**. I’ve also worked on indie games and made plenty of smaller projects through university and game jams.
 
-Music is a big part of my life. I often feel that if I didn't love music, I would suffer from depression very early on. The most religious thing I will do is just staring at Spotify's lyrics page and listening to music for a long time. I also love going to live shows, collection records, spent too much money that I shouldn't have. I Played guitar for about two years when I was in elementary school. Recently trying to pick it up again.
+## Away from the keyboard
 
-Want to get back to reading. Currently, I'm reading [Crying In H Mart](https://www.goodreads.com/en/book/show/54814676) by Michelle Zauner. Hopefully it won't make me cry too much.
+I grew up in a small town in China and moved to Montréal in 2019 to study Computer Science at Concordia University, with a dream of becoming a game developer.
 
-![A cute little polaroid of me](/images/aboutme.jpg)
+I love games, live shows, collecting records, and getting lost in music. I’m a Swiftie, a sometime guitar player, and someone whose game library is much larger than their completed-games list.
+
+You can find my projects on [GitHub](https://github.com/zetachan17) and [itch.io](https://zetachan.itch.io/), or say hello at [zetachan17@gmail.com](mailto:zetachan17@gmail.com).

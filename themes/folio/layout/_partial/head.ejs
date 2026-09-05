@@ -1,0 +1,25 @@
+<%
+const project = page.project ? site.data.projects.find(p => p.slug === page.project) : null;
+const title = is_home() ? 'Runze Zhu — Game Programmer' : (project ? project.name : (page.title || 'Notes')) + ' — Runze Zhu';
+const description = project ? project.desc : (page.description || config.description);
+const canonical = page.canonical || config.url.replace(/\/$/, '') + '/' + (page.path || '').replace(/index\.html$/, '');
+%>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111410">
+  <title><%= title %></title>
+  <meta name="description" content="<%= description %>">
+  <meta name="author" content="Runze Zhu">
+  <link rel="canonical" href="<%= canonical %>">
+  <% if (page.noindex || (page.archive && page.path !== "archives/index.html")) { %><meta name="robots" content="noindex, follow"><% } %>
+  <meta property="og:type" content="<%= is_post() ? 'article' : 'website' %>">
+  <meta property="og:site_name" content="Runze Zhu">
+  <meta property="og:title" content="<%= title %>">
+  <meta property="og:description" content="<%= description %>">
+  <meta property="og:url" content="<%= canonical %>">
+  <% if (project && project.image) { %><meta property="og:image" content="<%= config.url + project.image %>"><meta property="og:image:alt" content="<%= project.alt %>"><% } %>
+  <meta name="twitter:card" content="<%= project && project.image ? 'summary_large_image' : 'summary' %>">
+  <link rel="icon" href="<%= url_for('/images/mark.svg') %>" type="image/svg+xml">
+  <link rel="stylesheet" href="<%= url_for('/css/folio.css') %>">
+</head>

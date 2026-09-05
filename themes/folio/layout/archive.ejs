@@ -1,0 +1,3 @@
+<header class="page-heading"><span class="eyebrow">NOTES & OCCASIONAL THOUGHTS</span><h1>On the side<span>.</span></h1><p>A small corner for things I write along the way.</p></header>
+<section class="notes-list" aria-label="Posts"><% page.posts.sort('date', 'desc').each(post => { %><article><time datetime="<%= date(post.date, 'YYYY-MM-DD') %>"><%= date(post.date, 'MMM D, YYYY') %></time><h2><a href="<%= url_for(post.path) %>"><%= post.title %><span aria-hidden="true">↗</span></a></h2></article><% }) %></section>
+<% if(page.total > 1) { %><nav class="pagination" aria-label="Pagination"><%- paginator({prev_text:'← Previous',next_text:'Next →'}) %></nav><% } %>

@@ -3,21 +3,21 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Runze's Blog
-subtitle: ''
-description: Hi, I'm Runze Zhu, a recently graduated student with a Bachelor's Degree in Computer Science. <br>I specialized in game development, gameplay/UI programming, and I'm intrested in computer graphics and game engine development.  <br> swiftie.
+title: Runze Zhu
+subtitle: Game programmer · Montréal
+description: Game programmer in Montréal. Gameplay systems, developer tools, and test automation. Currently a QA Programmer at Ubisoft Montréal.
 keywords:
 author: Runze Zhu
 language: en
-timezone: ''
+timezone: America/Toronto
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://rzhu.ca
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
 # Directory
@@ -81,7 +81,7 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
-updated_option: 'mtime'
+updated_option: 'date'
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -97,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: cactus
+theme: folio
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
