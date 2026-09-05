@@ -2,18 +2,19 @@
   {
     "slug": "assassinscreedhexe",
     "name": "Assassin’s Creed Hexe",
-    "desc": "Gameplay test automation and developer tooling as a QA Programmer at Ubisoft Montréal.",
+    "desc": "Gameplay telemetry, test automation, and developer tooling as a Generalist Programmer at Ubisoft Montréal.",
     "context": "Ubisoft Montréal",
     "category": "Studio project",
     "engine": "Anvil",
     "tech": [
       "C++",
+      "Telemetry",
       "Test automation",
       "Developer tools"
     ],
     "image": "/images/optimized/assassinscreedhexe.webp",
     "alt": "Official Assassin’s Creed Codename Hexe artwork, with a wooden Assassin symbol and the game logo",
-    "role": "QA Programmer",
+    "role": "Generalist Programmer",
     "featured": true,
     "url": "/projects/assassinscreedhexe/",
     "width": 960,
