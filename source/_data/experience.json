@@ -2,8 +2,8 @@
   {
     "company": "Ubisoft Montréal",
     "period": "JUL 2024 — PRESENT",
-    "role": "QA Programmer",
-    "summary": "C++ gameplay test automation, engine telemetry, and developer tools. Integrated test suites into the approval pipeline, reducing build validation by 3 hours per cycle."
+    "role": "Generalist Programmer",
+    "summary": "C++ gameplay systems, telemetry, test automation, and developer tools. Instrumented 20+ gameplay telemetry attributes for the analytics pipeline and brought a project-specific telemetry system into the shared engine framework. Integrated automated tests into the approval pipeline, reducing build validation by 3 hours per cycle."
   },
   {
     "company": "Beenox · Activision",

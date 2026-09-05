@@ -1,11 +1,13 @@
 ---
 layout: about
 title: About
-description: Meet Runze Zhu, a game programmer in Montréal working on gameplay automation and developer tools at Ubisoft.
+description: Meet Runze Zhu, a game programmer in Montréal working on gameplay telemetry, automation, and developer tools at Ubisoft.
 ---
 ## Hi, I’m Runze.
 
-I’m a programmer based in Montréal, currently working as a **QA Programmer at Ubisoft Montréal**. I build C++ gameplay tests, developer tools, and telemetry systems that help teams make better games.
+I’m a programmer based in Montréal, currently working as a **Generalist Programmer at Ubisoft Montréal**. I build C++ gameplay tests, developer tools, and telemetry systems that help teams make better games.
+
+I’ve instrumented 20+ gameplay telemetry attributes covering combat outcomes, ability resource costs, status effects, tool usage, and threat state. These feed the studio’s analytics pipeline. I also brought a project-specific telemetry system into the shared engine framework so other titles using the engine can inherit it.
 
 My work also includes AI-assisted development workflows: custom agents, MCP integrations, and evaluation tools for generated unit tests. I enjoy finding practical ways to make a large codebase easier to work with.
 
