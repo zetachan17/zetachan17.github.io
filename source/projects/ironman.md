@@ -1,20 +1,21 @@
 ---
-layout: projects
-title: ironman
-date: 2023-04-25 18:27:54
-tags:
+layout: project
+title: "Iron Man"
+project: ironman
+permalink: projects/ironman/index.html
 ---
 
-## [Iron Man Game](#iron-man-game) 
-![Iron Man Game Key Art](/images/IronMan.jpg)
-I am (was making) Iron Man.
+## Building the systems behind the suit
 
-This is the project that I worked on during my eight month internship at EA Motive. As a gameplay programmer intern, I had the opportunity to learn and use C++, Frostbite Engine, and Unreal Engine 5 for this project. 
+During an eight-month internship at EA Motive in 2022, I worked as a gameplay programmer on the Iron Man project. I prototyped gameplay features in both Unreal Engine 5 and Frostbite, working closely with the gameplay design team.
 
-I learned how to use Gameplay Ability System in Unreal Engine 5 and Blueprint to implement many features such as character health, shield, and combat resources system in. I also created some UI to display these information.
+## My contribution
 
-I also learned how to use Entity Component System (ECS) in a large codebase like Frostbite Engine. I implemented some features in ECS such as hit detection, combact resources, many more. I also worked on the UI helped intergrate ImGui into the game. 
+- **Character and combat systems:** implemented character status and combat resources using Unreal Engine’s Gameplay Ability System, C++, and Blueprint.
+- **Frostbite gameplay:** built hit detection and skill-resource features using the engine’s Entity Component System, C++, and Schematics 2.
+- **UI and tooling:** created UI for gameplay information and helped integrate ImGui.
+- **Team documentation:** documented features in Confluence to help other programmers use and extend them.
 
-I worked closely with gameplay designning team to implement these features and wrote some documentation on Confluence to help other programmers understand how to use these features.
+## What I took away
 
-This eight months were some of the best time of my university life. I learned a lot from my mentors and colleagues, working with them makes me realize that people in the game industry are some of the most passionate and coolest people in the world. Working on an AAA game is a dream come true for me, and I'm very grateful for the opportunity. I hope I can work on more projects like this in the future.
+Working across two engines gave me experience with different approaches to gameplay architecture, from ability-based prototyping to a large ECS codebase. It was also my first opportunity to contribute to an AAA game alongside experienced designers and programmers.

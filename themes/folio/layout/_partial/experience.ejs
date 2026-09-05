@@ -1,0 +1,5 @@
+<div class="experience-list">
+<% site.data.experience.forEach(job => { %>
+  <article class="experience-row"><div class="experience-company"><h3><%= job.company %></h3><span class="eyebrow"><%= job.period %></span></div><div><h4><%= job.role %></h4><p><%= job.summary %></p></div><span class="experience-location">Montréal, QC</span></article>
+<% }) %>
+</div>

@@ -1,0 +1,7 @@
+<% const project = site.data.projects.find(p => p.slug === page.project); const index = site.data.projects.indexOf(project); const next = site.data.projects[(index + 1) % site.data.projects.length]; %>
+<article class="case-study">
+  <header class="page-heading project-heading"><a class="text-link back-link" href="<%= url_for('/projects/') %>">← All projects</a><span class="eyebrow"><%= project.context %></span><h1><%= project.name %></h1><p><%= project.desc %></p><ul class="tags" aria-label="Technologies"><% project.tech.forEach(tag => { %><li><%= tag %></li><% }) %></ul></header>
+  <% if (project.image) { %><figure class="case-cover"><img src="<%= url_for(project.image) %>" alt="<%= project.alt %>" width="<%= project.width %>" height="<%= project.height %>" decoding="async" fetchpriority="high"></figure><% } %>
+  <div class="case-body"><aside class="case-facts"><div><span class="eyebrow">PROJECT</span><p><%= project.category %></p></div><div><span class="eyebrow">TECHNOLOGY</span><p><%= project.engine %></p></div><% if(project.role) { %><div><span class="eyebrow">MY ROLE</span><p><%= project.role %></p></div><% } %></aside><div class="prose"><%- page.content %></div></div>
+</article>
+<a class="next-project" href="<%= url_for(next.url) %>"><span class="eyebrow">NEXT PROJECT</span><span><%= next.name %> <span aria-hidden="true">↗</span></span></a>

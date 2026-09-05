@@ -1,0 +1,20 @@
+[
+  {
+    "company": "Ubisoft Montréal",
+    "period": "JUL 2024 — PRESENT",
+    "role": "QA Programmer",
+    "summary": "C++ gameplay test automation, engine telemetry, and developer tools. Integrated test suites into the approval pipeline, reducing build validation by 3 hours per cycle."
+  },
+  {
+    "company": "Beenox · Activision",
+    "period": "JAN — APR 2024",
+    "role": "Gameplay Programmer Intern",
+    "summary": "Contributed to the worldwide launch of Call of Duty: Warzone Mobile, working on player movement, weapons, vehicles, and UI."
+  },
+  {
+    "company": "Motive · Electronic Arts",
+    "period": "JAN — AUG 2022",
+    "role": "Gameplay Programmer Intern",
+    "summary": "Prototyped Iron Man gameplay in Unreal Engine 5 and Frostbite: character status, combat resources, hit detection, and supporting UI."
+  }
+]

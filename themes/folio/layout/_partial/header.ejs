@@ -1,0 +1,9 @@
+<header class="site-header">
+  <a class="brand" href="<%= url_for('/') %>" aria-label="Runze Zhu, home"><span class="brand-mark" aria-hidden="true">rz<span>.</span></span><span class="brand-name">RUNZE ZHU</span></a>
+  <nav class="main-nav" aria-label="Main navigation">
+    <a href="<%= url_for('/projects/') %>" <%- page.path && page.path.startsWith('projects/') ? 'aria-current="page"' : '' %>>Work</a>
+    <a href="<%= url_for('/about/') %>" <%- page.path === 'about/index.html' ? 'aria-current="page"' : '' %>>About</a>
+    <a href="<%= url_for('/archives/') %>" <%- page.archive || is_post() ? 'aria-current="page"' : '' %>>Notes</a>
+    <a class="resume-link" href="<%= url_for('/Runze_Zhu_Resume.pdf') %>">Résumé <span aria-hidden="true">↗</span></a>
+  </nav>
+</header>

@@ -1,0 +1,11 @@
+<article class="project-card">
+  <a class="project-cover <%= project.slug %>" href="<%= url_for(project.url) %>" aria-label="View <%= project.name %>">
+    <% if (project.image) { %><img src="<%= url_for(project.image) %>" alt="<%= project.alt %>" width="<%= project.width %>" height="<%= project.height %>" loading="lazy" decoding="async"><% } else { %><div class="type-cover" aria-hidden="true"><span><%= project.engine %></span><strong><%= project.name %></strong><span><%= project.category %> / <%= project.tech[0] %></span></div><% } %>
+    <span class="cover-arrow" aria-hidden="true">↗</span>
+  </a>
+  <div class="project-meta"><span><%= project.context %></span><span><%= project.engine %></span></div>
+  <% const heading = is_home() ? "h3" : "h2"; %>
+  <<%= heading %>><a href="<%= url_for(project.url) %>"><%= project.name %></a></<%= heading %>>
+  <p><%= project.desc %></p>
+  <ul class="tags" aria-label="<%= project.name %> technologies"><% project.tech.forEach(tag => { %><li><%= tag %></li><% }) %></ul>
+</article>
