@@ -1,5 +1,45 @@
 [
   {
+    "slug": "assassinscreedhexe",
+    "name": "Assassin’s Creed Hexe",
+    "desc": "Gameplay test automation and developer tooling as a QA Programmer at Ubisoft Montréal.",
+    "context": "Ubisoft Montréal",
+    "category": "Studio project",
+    "engine": "Anvil",
+    "tech": [
+      "C++",
+      "Test automation",
+      "Developer tools"
+    ],
+    "image": "/images/optimized/assassinscreedhexe.webp",
+    "alt": "Official Assassin’s Creed Codename Hexe artwork, with a wooden Assassin symbol and the game logo",
+    "role": "QA Programmer",
+    "featured": true,
+    "url": "/projects/assassinscreedhexe/",
+    "width": 960,
+    "height": 540
+  },
+  {
+    "slug": "warzonemobile",
+    "name": "Call of Duty: Warzone Mobile",
+    "desc": "Gameplay programming for the worldwide launch: player movement, weapons, vehicles, and UI.",
+    "context": "Beenox · Activision · 2024",
+    "category": "Studio project",
+    "engine": "C++ / Lua",
+    "tech": [
+      "Gameplay",
+      "C++",
+      "Lua"
+    ],
+    "image": "/images/optimized/warzonemobile.webp",
+    "alt": "Official Call of Duty: Warzone Mobile key art featuring Ghost and two operators above the game logo",
+    "role": "Gameplay Programmer Intern",
+    "featured": true,
+    "url": "/projects/warzonemobile/",
+    "width": 1420,
+    "height": 800
+  },
+  {
     "slug": "jumpinjazzcats",
     "name": "Jumpin’ Jazz Cats",
     "desc": "Online multiplayer party-game mayhem. Gameplay, UI, and online systems in Unreal Engine 5.",
